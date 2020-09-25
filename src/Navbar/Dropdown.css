@@ -1,0 +1,14 @@
+.dropdown-icon {
+    background-color: #E4e6eb;
+    border-radius: 999px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444950;
+}
+
+.dropdown-icon:hover {
+    cursor: pointer;
+}

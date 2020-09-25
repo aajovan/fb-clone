@@ -1,0 +1,15 @@
+.sidebarLeft {
+    margin: 10px 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarLeft-item {
+    padding: 5px 10px;
+}
+
+.sidebarLeft-item:hover {
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: #e2e4e7;
+}

@@ -1,0 +1,158 @@
+@media (min-width: 1360px) {
+    .navbar-center .MuiSvgIcon-root {
+       width: 100%;
+    }
+    .navbar-center {
+        display: flex;
+        align-items: stretch;
+        width: 680px;
+    }
+    .navbar-right .navbar-right-user {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1360px) {
+    .navbar-center .MuiSvgIcon-root {
+        padding: 0px 20px;
+    }
+    .navbar-center {
+        display: flex;
+        align-items: stretch;
+    }
+    .navbar-right .navbar-right-user {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-center .MuiSvgIcon-root {
+        display: none;
+    }
+    .search>input {
+        display: none;
+    }
+    .navbar-right .navbar-right-user {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-center .MuiSvgIcon-root {
+        padding: 0px 15px;
+    }
+    .navbar-center {
+        display: flex;
+        align-items: stretch;
+    }
+    .search>input {
+        display: none;
+    }
+    .navbar-right .navbar-right-user {
+        display: none;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);
+    height: 60px;
+    background-color: white;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.navbar-right .navbar-right-user {
+    padding-left: 5px;
+    padding-right: 15px;
+    color: black;
+}
+
+.navbar-right .navbar-right-user:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 99px;
+    color: black;
+}
+
+.navbar-right .navbar-right-user p {
+    padding-left: 5px;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+    flex: 1;
+}
+
+.navbar-left>img {
+    height: 40px;
+}
+
+.navbar-left>img:hover {
+    cursor: pointer;
+}
+
+.navbar-search {
+    margin-left: 10px;
+}
+
+.navbar-center-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #65676a;
+}
+
+.navbar-center .MuiSvgIcon-root:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.navbar-center .MuiSvgIcon-root {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-center-icon-active {
+    border-bottom: 3px solid #1877f2;
+    color: #1877f2;
+}
+
+.navbar-center-icon-active .MuiSvgIcon-root:hover {
+    background-color: transparent;
+}
+
+.navbar-right-user>.MuiAvatar-root.MuiAvatar-circle {
+    height: 28px;
+    width: 28px;
+}
+
+.navbar-right .navbar-right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right .navbar-right-icons .navbar-right-icon {
+    margin: 0 5px;
+}
+
+.navbar-text-primary {
+    color: #050505;
+}
+
+.navbar-text-secondary {
+    color: #65676b;
+}

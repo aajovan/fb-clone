@@ -1,0 +1,27 @@
+.sidebarLeft-row {
+    display: flex;
+    align-items: center;
+    color: #050505;
+}
+
+.sidebarLeft-row>.icon {
+    height: 36px;
+    width: 36px;
+}
+
+.sidebarLeft-row>.icon>.MuiSvgIcon-root {
+    height: 100%;
+    width: auto;
+}
+
+.sidebarLeft-row>.icon>.MuiAvatar-root {
+    height: 100%;
+    width: auto;
+}
+.sidebarLeft-row>.text {
+    margin-left: 10px;
+}
+.sidebarLeft-row>.text > h5{
+    margin: 0px 0px;
+    padding:0px 0px;
+}
